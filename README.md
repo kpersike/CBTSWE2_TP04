@@ -16,39 +16,39 @@ LUIZ GUSTAVO VERISSIMO MONTEIRO
 
 **SUMÁRIO**
 
-[**1\. INTRODUÇÃO	4**](#1-introdução)
+[**1\. INTRODUÇÃO**](#1-introdução)
 
-[**2\. TECNOLOGIAS UTILIZADAS	4**](#2-tecnologias-utilizadas)
+[**2\. TECNOLOGIAS UTILIZADAS**](#2-tecnologias-utilizadas)
 
-[**3\. ESTRUTURA DA SOLUÇÃO	5**](#3-estrutura-da-solução)
+[**3\. ESTRUTURA DA SOLUÇÃO**](#3-estrutura-da-solução)
 
-[3.1. CBTSWE2\_TP04	5](#31-cbtswe2_tp04)
+[3.1. CBTSWE2\_TP04](#31-cbtswe2_tp04)
 
-[3.2. Livraria.API	5](#32-livrariaapi)
+[3.2. Livraria.API](#32-livrariaapi)
 
-[3.3. Livraria.Core	5](#33-livrariacore)
+[3.3. Livraria.Core](#33-livrariacore)
 
-[**4\. DESENVOLVIMENTO DA DLL E SUA INTEGRAÇÃO	6**](#4-desenvolvimento-da-dll-e-sua-integração)
+[**4\. DESENVOLVIMENTO DA DLL E SUA INTEGRAÇÃO**](#4-desenvolvimento-da-dll-e-sua-integração)
 
-[**5\. CONFIGURAÇÃO E CONEXÃO COM O BANCO DE DADOS	9**](#5-configuração-e-conexão-com-o-banco-de-dados)
+[**5\. CONFIGURAÇÃO E CONEXÃO COM O BANCO DE DADOS**](#5-configuração-e-conexão-com-o-banco-de-dados)
 
-[**6\. DESENVOLVIMENTO DA WEB API	10**](#6-desenvolvimento-da-web-api)
+[**6\. DESENVOLVIMENTO DA WEB API**](#6-desenvolvimento-da-web-api)
 
-[**7\. DESENVOLVIMENTO DA PÁGINA WEB	11**](#7-desenvolvimento-da-página-web)
+[**7\. DESENVOLVIMENTO DA PÁGINA WEB**](#7-desenvolvimento-da-página-web)
 
-[7.1. Cadastro de livros	11](#71-cadastro-de-livros)
+[7.1. Cadastro de livros](#71-cadastro-de-livros)
 
-[7.2. Consulta de livros	11](#72-consulta-de-livros)
+[7.2. Consulta de livros](#72-consulta-de-livros)
 
-[7.3. Atualização de livros	11](#73-atualização-de-livros)
+[7.3. Atualização de livros](#73-atualização-de-livros)
 
-[7.4. Exclusão de livros	11](#74-exclusão-de-livros)
+[7.4. Exclusão de livros](#74-exclusão-de-livros)
 
-[**8\. VALIDAÇÕES E TESTES REALIZADOS	13**](#8-validações-e-testes-realizados)
+[**8\. VALIDAÇÕES E TESTES REALIZADOS**](#8-validações-e-testes-realizados)
 
-[**9\. CONSIDERAÇÕES FINAIS	15**](#9-considerações-finais)
+[**9\. CONSIDERAÇÕES FINAIS**](#9-considerações-finais)
 
-[**10\. REFERÊNCIAS E RECURSOS	16**](#10-referências-e-recursos)
+[**10\. REFERÊNCIAS E RECURSOS**](#10-referências-e-recursos)
 
 **LISTA DE ILUSTRAÇÕES**
 
