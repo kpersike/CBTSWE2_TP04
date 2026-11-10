@@ -265,13 +265,13 @@ MICROSOFT. **Razor Pages no ASP.NET Core**. Microsoft Learn, \[s. d.\]. Disponí
 
 MICROSOFT. **SQL Server Express LocalDB**. Microsoft Learn, \[s. d.\]. Disponível em: [https\://learn.microsoft.com/pt-br/sql/database-engine/configure-windows/sql-server-express-localdb](https://learn.microsoft.com/pt-br/sql/database-engine/configure-windows/sql-server-express-localdb). Acesso em: 7 nov. 2026\.
 
-[image1]: imagens/figura1.png
-[image2]: imagens/figura2.png
-[image3]: imagens/figura3.png
-[image4]: imagens/figura4.png
-[image5]: imagens/figura5.png
-[image6]: imagens/figura6.png
-[image7]: imagens/figura7.png
-[image8]: imagens/figura8.png
-[image9]: imagens/figura9.png
-[image10]: imagens/figura10.png
+[image1]: imagens/image1.png
+[image2]: imagens/image2.png
+[image3]: imagens/image3.png
+[image4]: imagens/image4.png
+[image5]: imagens/image5.png
+[image6]: imagens/image6.png
+[image7]: imagens/image7.png
+[image8]: imagens/image8.png
+[image9]: imagens/image9.png
+[image10]: imagens/image10.png
