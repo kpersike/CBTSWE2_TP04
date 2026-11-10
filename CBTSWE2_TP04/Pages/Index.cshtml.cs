@@ -18,11 +18,13 @@ namespace CBTSWE2_TP04.Pages
 
         public List<Livro> Livros { get; set; } = new();
 
-        [BindProperty]
         public Livro NovoLivro { get; set; } = new();
 
-        [BindProperty]
         public Livro LivroEdicao { get; set; } = new();
+
+        public bool AbrirModalCadastro { get; set; }
+
+        public bool AbrirModalEdicao { get; set; }
 
         public IndexModel(IHttpClientFactory httpClientFactory)
         {
@@ -37,8 +39,20 @@ namespace CBTSWE2_TP04.Pages
                      ?? new List<Livro>();
         }
 
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync(
+            [FromForm] Livro NovoLivro)
         {
+            this.NovoLivro = NovoLivro;
+
+            if (!ModelState.IsValid)
+            {
+                AbrirModalCadastro = true;
+
+                await OnGetAsync();
+
+                return Page();
+            }
+
             var httpClient = _httpClientFactory.CreateClient("LivrariaAPI");
 
             var resposta = await httpClient.PostAsJsonAsync(
@@ -51,6 +65,8 @@ namespace CBTSWE2_TP04.Pages
                 return RedirectToPage();
             }
 
+            AbrirModalCadastro = true;
+
             ModelState.AddModelError(
                 string.Empty,
                 "Não foi possível cadastrar o livro."
@@ -60,6 +76,7 @@ namespace CBTSWE2_TP04.Pages
 
             return Page();
         }
+
 
 
         public async Task<IActionResult> OnPostExcluirAsync(int id)
@@ -83,9 +100,19 @@ namespace CBTSWE2_TP04.Pages
             return Page();
         }
 
-
-        public async Task<IActionResult> OnPostAtualizarAsync(int id)
+        public async Task<IActionResult> OnPostAtualizarAsync(
+            int id,
+            [FromForm] Livro LivroEdicao)
         {
+            if (!ModelState.IsValid)
+            {
+                AbrirModalEdicao = true;
+
+                await OnGetAsync();
+
+                return Page();
+            }
+
             var httpClient = _httpClientFactory.CreateClient("LivrariaAPI");
 
             var resposta = await httpClient.PutAsJsonAsync(
@@ -97,6 +124,8 @@ namespace CBTSWE2_TP04.Pages
             {
                 return RedirectToPage();
             }
+
+            AbrirModalEdicao = true;
 
             ModelState.AddModelError(
                 string.Empty,
