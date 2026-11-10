@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CBTSWE2_TP04/CBTSWE2_TP04.csproj" />
+  <Project Path="Livraria.API/Livraria.API.csproj" />
+  <Project Path="Livraria.Core/Livraria.Core.csproj" />
+</Solution>
